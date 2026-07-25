@@ -2,7 +2,6 @@
 <div align="center">
   <img src="https://dwdwpld.pages.dev/ESP32-BlueJammerBy@emensta.jpg" alt="ESP32-BlueJammer">
   <h3 align="center">Jamming is ILLEGAL! Educational purposes only!</h3>
-  <h3 align="center"><a href="https://github.com/EmenstaNougat/BlueJammer-V2">BlueJammer-V2</a>, <a href="https://github.com/EmenstaNougat/BW16-BlueJammer">BW16-BlueJammer</a> & <a href="https://github.com/EmenstaNougat/ZeroWave_FlipperZero-BlueJammer">ZeroWave for Flipper Zero</a> released!</h3>
 </div>
 
 <div align="center">
@@ -16,31 +15,6 @@
   <img src="https://img.shields.io/github/forks/EmenstaNougat/ESP32-BlueJammer?style=social" alt="forks - ESP32-BlueJammer">
 </a>
 </div>
-
-
-<h4 align="center">
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#hardware---make-your-own-esp32-bluejammer">Make your own</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#esp32-nrf24l01-pinout--battery-mod">Schematics</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#pcb">Hardware layout</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#pcbs-with-esp32-and-rf-module-capability">PCB's</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#video-tutorials-and-demonstrations">Demos</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#operation-channels">Channels</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#flashing-the-firmware">Flashing</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer#3d-printed-case">3D case</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#about-the-esp32-bluejammer-and-my-source-code">About</a>
-    <span> | </span>
-  <a href="https://github.com/EmenstaNougat/ESP32-BlueJammer?tab=readme-ov-file#support-me">Support me</a>
-    <span> | </span>
-  <a href="https://emensta.pages.dev">Website</a>
-</h4>
 
 
 ## ESP32-BlueJammer
@@ -57,71 +31,7 @@ An amplifier (2.4GHz) may be a good option too!
 
 Remember that jamming is illegal and should not be used with malicious intent!
 
-
-
-## PCB's with ESP32 and RF-module capability
-**ESP32-RF DIY-PCB:**
-This PCB can fit an ESP32-wroom-32U/E DevKitC and 2 nRF-modules, along with an 0.96" I2C OLED, LEDs and switches.  
-***Remember: It is not intended for illegal use!***  
-For this one, all you need is listed below:  
-
-**Required:**  
-- **[ESP32 Dev Module](https://s.click.aliexpress.com/e/_onYIVKr)** (**Recommended: ESP32-32U CP2102**, any ESP32 should work as long as it has the needed pins, 38P required!)  
-- **[nRF24L01+PA+LNA](https://s.click.aliexpress.com/e/_oma5UQx)** (2x)  
-- **[10-100uF Capacitor](https://s.click.aliexpress.com/e/_oFvFeYX)** (2x) (any voltage above 5V)  
-- **[0.96" OLED Display I2C](https://s.click.aliexpress.com/e/_oCdkjPX)**
-- **[Slide Switch](https://s.click.aliexpress.com/e/_c4eQKm5D)** (2x)
-- **[LEDs: 3mm LED box](https://s.click.aliexpress.com/e/_c4dAH9sF)**  
-- **[Resistor kit](https://s.click.aliexpress.com/e/_oCoJ7LO)**  
-- R1 = 1kOhm  
-- R2, R3, R5, R7 = 47kOhm  
-- R4, R6 = 100kOhm  
-
-**Additional:**  
-- **[TP4056 Charging Module (Micro-USB/Type-C)](https://s.click.aliexpress.com/e/_oCqORHE)**  
-- **[JST PH 2.0 Connector](https://s.click.aliexpress.com/e/_ooSOhDd)**  
-- **[3.7V Li-Ion Battery](https://s.click.aliexpress.com/e/_on04mQ7)**  
-- **[3rd Antenna: **IPEX to SMA-F pigtail](https://s.click.aliexpress.com/e/_oFDpn1V)**  
-![image](https://github.com/user-attachments/assets/601b72e8-587a-43e0-8d2a-c99cbdce4a21)  
-[Shop](https://www.elecrow.com/esp32-rf-diy-pcb.html)
-
 ---
-
-**PRE-SOLDERED:**  "The Blue ESP"  
-This is an ESP32 with RF-module breakouts (nRF24/CC1101 etc.) for experimenting.  
-***Remember: It is not intended for illegal use, neither for my project!***  
-
-**Required:**  
-- **[nRF24L01+PA+LNA](https://s.click.aliexpress.com/e/_oma5UQx)** (2x)  
-Why do you need to get the nRF24's? -> the pinout can be used to connect either nRF24 or CC1101 modules for further experiments with an ESP32 chip.
-![TheBlueESP](https://dwdwpld.pages.dev/theblueespwavychat.png)
-[Shop](https://datechlabs.com/products/the-blue-esp-pre-order)
-
-
-
-## Video tutorials and demonstrations
-[Full DIY assembling video tutorial](https://www.tiktok.com/@emensta/video/7389783018002550049)
-
-[Full DIY assembling video tutorial (if the TikTok is not available for you)](https://www.mediafire.com/file/mgb3wicdifkq1ce/ESP32-BlueJammerByEmensta-DIYTutorial.mp4/file)
-
----
-
-[Demonstration](https://vm.tiktok.com/ZGec5Mqg7/)
-
-[Demonstration (if the TikTok is not available for you)](https://www.mediafire.com/file/xgru01ihbw26mfu/ESP32-BlueJammerByEmensta-Demonstration.mp4/file)
-
----
-
-[Flashing process](https://www.tiktok.com/@emensta/video/7413509704401292577)
-
-[Flashing process (if the TikTok is not available for you)](https://www.mediafire.com/file/2aj4hmf9zt7w6sw/ESP32-BlueJammerByEmensta-FlashingProcess.mp4/file)
-
----
-
-ESP32-BlueJammer tutorial by @ElMackflay  
-[![ESP32-BlueJammer tutorial by @ElMackflay](https://img.youtube.com/vi/1kjkWU25_qo/0.jpg)](https://www.youtube.com/watch?v=1kjkWU25_qo)  
----
-
 
 ## Operation Channels
 - **Bluetooth** = 79CH  
@@ -181,7 +91,6 @@ Frequency Range: 2.400 GHz to 2.4835 GHz
 
 2.4GHzRemoteControl(Drones etc.)_1-125_CH - jams RC (Drones etc.)  
   Frequency Range: 2.400 GHz to 2.525 GHz  
-
 
 
 ## Hardware - Make your own ESP32-BlueJammer
@@ -250,7 +159,9 @@ If your ESP32 is not showing up in the device list or won't get recognized you w
 
 ## ESP32-nRF24L01+ pinout + battery mod
 Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connected in order to achieve full capability of the device.                
-[nRF24L01+ pinout](https://dwdwpld.pages.dev/nRF24L01pinout.png)
+![nRF24L01+ pinout](https://dwdwpld.pages.dev/nRF24L01pinout.png)
+
+![ESP32 32U pinout](https://ae01.alicdn.com/kf/Hcee76bca3fb64ac99cabf805925647963.png)
 ### HSPI
 | 1st nRF24L01 module Pin | HSPI Pin (ESP32) | 10uf capacitor |
 |---------------|------------------|--------------------|
@@ -276,7 +187,7 @@ Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connecte
 | IRQ           |                  |
 
 ### Status LED
-| ESP32 | 4.7k Ohm Resistor | 3mm Status LED (blue)|
+| ESP32 | 1.0k Ohm Resistor | 3mm Status LED (blue)|
 |-------|-------------------|----------------------|
 |  GND  |                   |       (-) LED        |
 |       |      Resistor     |       (+) LED        |
@@ -338,36 +249,6 @@ Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connecte
 <h3 align="center">Here's a look at the V4 3 antenna version itself</h3>
 
 ![3DCaseView](https://dwdwpld.pages.dev/V4-ESP32-BlueJammer3DCaseView.png)
-
-
-
-## About the ESP32-BlueJammer and my source code
-- **Is my ESP32-BlueJammer really working?**  
-  Yes! My ESP32 BlueJammer is fully functional, and no one pauses the sound in the demo video. Many people have built their own ESP32-BlueJammer and confirmed that it works! Join my Discord and see for yourself! ;D
-
-- **Why my ESP32-BlueJammer code is NOT open source**  
-  There are several "BLE Jammers" available on GitHub, but they all have limitations in frequency range, channel coverage, and effective distance (around 5 meters). Therefore I decided to develop and code my own firmware for the ESP32-BlueJammer, aiming for superior performance.
-
-  Despite some claims that I might have copied someone else's work, it's important to clarify that extracting source code from a compiled file (.hex, .bin, etc.) is practically impossible. If I had used someone else's work, I wouldn't have been able to create custom console banners, develop multiple firmware versions, or build a web flasher. My code is entirely written from scratch. There is nothing taken from other available codes, sources, codebases or resources as a foundation, if any even exist. My code remains closed source for now, to protect the significant effort and innovation I've invested in this project.
-
-  This isn't my last project. I'm looking forward to implementing the ESP32-BlueJammer in further ongoing projects, so for now, I'd like the code to remain closed source. Maybe someday I'll make it open source!  
-  -no one knows. ;D
-## Source code snippets by @emensta
-- **Here are three snippets of my source code for you to compare with other available sources. This way, you can see that it was written from scratch:** 
-![ESP32-BlueJammerByEmenstaCodeSnippets](https://dwdwpld.pages.dev/ESP32-BlueJammerByEmenstaCodeSnippets.jpg)
-
-
-
-## Discord
-You can join my Discord server [here](https://discord.gg/emensta)!
-
-
-
-## Portfolio and all my links
-Here you can visit my Portfolio, you'll find everything that you're looking for [here](https://emensta.pages.dev)!
-
-## Support me
-Via [this link](https://ko-fi.com/emensta), you can leave a tip to keep me motivated developing future projects! Thank you for your support :)
 
 
 <h1 align="center"> DISCLAIMER </h1>
