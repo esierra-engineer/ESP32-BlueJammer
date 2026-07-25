@@ -144,10 +144,10 @@ If your ESP32 is not showing up in the device list or won't get recognized you w
 
 
 ## ESP32-nRF24L01+ pinout + battery mod
-Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connected in order to achieve full capability of the device.                
-![nRF24L01+ pinout](https://dwdwpld.pages.dev/nRF24L01pinout.png)
+Here are both pinouts for HSPI and VSPI. You need both nRF24L01 modules connected in order to achieve full capability of the device.
+![ESP32 32U pinout](https://github.com/esierra-engineer/ESP32-BlueJammer/raw/refs/heads/main/Gallery/ESP32%20PINOUT.avif)
 
-![ESP32 32U pinout](https://ae01.alicdn.com/kf/Hcee76bca3fb64ac99cabf805925647963.png)
+![nRF24L01+ pinout](https://github.com/esierra-engineer/ESP32-BlueJammer/raw/refs/heads/main/Gallery/nRF24L01pinout.png)
 ### HSPI
 | 1st nRF24L01 module Pin | HSPI Pin (ESP32) | 10uf capacitor |
 |---------------|------------------|--------------------|
