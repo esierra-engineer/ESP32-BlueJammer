@@ -95,7 +95,8 @@ Frequency Range: 2.400 GHz to 2.4835 GHz
 - **[0.96" OLED Display I2C](https://s.click.aliexpress.com/e/_oCdkjPX)**
 - [3rd Antenna: **IPEX to SMA-F pigtail**](https://s.click.aliexpress.com/e/_oFDpn1V)
 - [Status LED: **3mm LED**](https://s.click.aliexpress.com/e/_ooxufHV)
-- **[4.7k Ohm Resistor](https://s.click.aliexpress.com/e/_oBV1Q1Z)**
+- **[1.0k Ohm Resistor](https://s.click.aliexpress.com/e/_oBV1Q1Z)**
+- **[Directional 12.5 dBi Yagi Antenna](https://es.aliexpress.com/item/1005011977259250.html?spm=a2g0o.store_pc_home.allitems_choice_2009264231456.1005011977259250&gatewayAdapt=glo2esp)**
 
 ### If you're looking to add a battery:
 
