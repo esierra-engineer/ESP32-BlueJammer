@@ -4,18 +4,6 @@
   <h3 align="center">Jamming is ILLEGAL! Educational purposes only!</h3>
 </div>
 
-<div align="center">
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer" title="Go to GitHub repo">
-  <img src="https://img.shields.io/static/v1?label=EmenstaNougat&message=ESP32-BlueJammer&color=purple&logo=github" alt="EmenstaNougat - ESP32-BlueJammer">
-</a>
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer">
-  <img src="https://img.shields.io/github/stars/EmenstaNougat/ESP32-BlueJammer?style=social" alt="stars - ESP32-BlueJammer">
-</a>
-<a href="https://github.com/EmenstaNougat/ESP32-BlueJammer">
-  <img src="https://img.shields.io/github/forks/EmenstaNougat/ESP32-BlueJammer?style=social" alt="forks - ESP32-BlueJammer">
-</a>
-</div>
-
 
 ## ESP32-BlueJammer
 The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC jammer) disrupts various devices using an ESP32 and nRF24 modules, causing plenty of noise and sending unnecessary packets (DoS).              
@@ -139,8 +127,7 @@ What is the 3rd antenna used for? The third antenna connected to the ESP32 chip 
 
 
 ## Flashing the firmware
-### via webflasher (Easy)  
-![ESP32-BlueJammerFlasher](https://dwdwpld.pages.dev/ESP32BlueJammerFlasher.png)                                                                 
+### via webflasher (Easy)                                                                
 I've created a webflasher to make it super easy for you to flash your ESP32 chip with the ESP32-BlueJammer firmware of your choice!  
 - Visit [ESP32-BlueJammerFlasher](https://esp32-bluejammerflasher.pages.dev)
 - First, choose the firmware type, "Generic" or "0.96" OLED"
@@ -154,7 +141,6 @@ I've created a webflasher to make it super easy for you to flash your ESP32 chip
 - Flash it :D
 
 If your ESP32 is not showing up in the device list or won't get recognized you will need to have [THESE DRIVERS INSTALLED](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) which can be found on my [Discord server](https://discord.gg/yNGhKxzqUE) too!
-
 
 
 ## ESP32-nRF24L01+ pinout + battery mod
